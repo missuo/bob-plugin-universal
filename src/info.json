@@ -1,0 +1,21 @@
+{
+    "identifier": "me.missuo.bobplugin.universal",
+    "category": "translate",
+    "version": "1.0.0",
+    "name": "Universal",
+    "summary": "",
+    "author": "missuo",
+    "appcast": "https://github.com/missuo/bob-plugin-universal/raw/main/appcast.json",
+    "homepage": "https://github.com/missuo/bob-plugin-universal",
+    "icon": "icon.png",
+    "minBobVersion": "0.5.0",
+    "options": [
+        {
+            "identifier": "url",
+            "type": "text",
+            "title": "API Endpoint",
+            "defaultValue": "http://1.1.1.1:23333/translate",
+            "desc": "Fill in the private API address you deployed."
+        }
+    ]
+}
